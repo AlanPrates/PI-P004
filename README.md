@@ -1,7 +1,7 @@
 # Atividade PI-P005 e PI-P006 - Grupo DevTeamXYZ
 
 ## Descrição da Atividade
-Neste repositório, apresentamos as implementações individuais dos exercícios da Atividade XYZ, realizada como parte do nosso curso/projeto/atividade [inserir detalhes específicos].
+Neste repositório, apresentamos as implementações individuais dos exercícios da Atividade PI-P005 e PI-P006, realizada como parte do nosso curso/projeto/atividade [inserir detalhes específicos].
 
 ## Membros da Equipe
 Conheça os membros da equipe que contribuíram para este projeto:
