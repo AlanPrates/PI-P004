@@ -1,4 +1,4 @@
-# Atividade PI-P005 e PI-P006 - Grupo DevTeamXYZ
+# Atividade PI-P004 - Grupo DevTeamXYZ
 
 ## Descrição da Atividade
 Neste repositório, apresentamos as implementações individuais dos exercícios da Atividade PI-P005 e PI-P006, realizada como parte do nosso curso/projeto/atividade [inserir detalhes específicos].
@@ -22,6 +22,9 @@ Conheça os membros da equipe que contribuíram para este projeto:
 - Função: [Inserir função ou responsabilidade específica]
 - Contato: [Inserir informações de contato, como e-mail ou perfil do GitHub]
 
+### Lucas Santiago
+- Função: [Inserir função ou responsabilidade específica]
+- Contato: [Inserir informações de contato, como e-mail ou perfil do GitHub]
 ## Instruções
 Cada membro da equipe criou um branch específico para trabalhar em suas implementações individuais. Você pode encontrar os branches de cada membro seguindo os links abaixo:
 
@@ -29,6 +32,7 @@ Cada membro da equipe criou um branch específico para trabalhar em suas impleme
 - [Branch do Daniel Monteiro](link_para_o_branch_do_Daniel)
 - [Branch do Danilo Silveira](link_para_o_branch_do_Danilo)
 - [Branch do Paulo Pereira](link_para_o_branch_do_Paulo)
+- [Branch do Lucas Santiago](link_para_o_branch_Lucas_Santiago)
 
 ## Como Contribuir
 Se você for um membro da equipe ou colaborador autorizado, siga estas etapas para contribuir:
