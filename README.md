@@ -1,4 +1,4 @@
-# Atividade PI-P004 - Grupo DevTeamXYZ
+# Atividade PI-P004 - Grupo 4
 
 ## Descrição da Atividade
 Neste repositório, apresentamos as implementações individuais dos exercícios da Atividade PI-P005 e PI-P006, realizada como parte do nosso curso/projeto/atividade [inserir detalhes específicos].
