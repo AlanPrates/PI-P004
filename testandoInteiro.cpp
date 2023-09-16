@@ -1,5 +1,4 @@
-/*
-Exercício 3: Manipulação de variáveis de tipo inteiro, explorando os limites.
+/*Exercício 3: Manipulação de variáveis de tipo inteiro, explorando os limites.
 ● Durante a aula foi apresentado o tipo de dado int e suas variações, que
 permitem representar um subconjunto dos números inteiros. Sobre estes
 tipos de dados crie uma aplicação que:
@@ -22,7 +21,7 @@ em ui. O que acontece e por que? Mostre o resultado na tela e
 coloque suas considerações num comentário no código.
 f. Atribua a ui o maior valor que pode ser armazenado num
 unsigned int (identifique qual o menor e o maior valor que pode
-ser representado);*/
+ser representado)*/
 #include <iostream>
 #include <limits>
 
