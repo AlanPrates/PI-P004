@@ -18,9 +18,9 @@ Conheça os membros da equipe que contribuíram para este projeto:
 - Função: [Inserir função ou responsabilidade específica]
 - Contato: [Inserir informações de contato, como e-mail ou perfil do GitHub]
 
-### Paulo Pereira
-- Função: [Inserir função ou responsabilidade específica]
-- Contato: [Inserir informações de contato, como e-mail ou perfil do GitHub]
+### Paulo Pereira Marques
+- Função: [criar um branch no repositório, onde fará as implementações dos exercícios individualmente]
+- Contato: [https://github.com/paulo2k21]
 
 ### Lucas Santiago
 - Função: [Inserir função ou responsabilidade específica]
