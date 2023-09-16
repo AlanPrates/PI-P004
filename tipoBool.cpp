@@ -4,7 +4,7 @@ serão amplamente utilizadas nos próximos tópicos. Entretanto, outros tipos
 de dados podem ser utilizados no lugar de valores bool e seus valores são
 convertidos em true ou false. 
 a. Faça uma aplicação que mostre como os diversos tipos que foram
-estudados até aqui são convertidos em true ou false.*/
+estudados até aqui são convertidos em true ou false. */
 #include <iostream>
 
 using namespace std;

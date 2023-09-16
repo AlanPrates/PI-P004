@@ -22,7 +22,7 @@ em ui. O que acontece e por que? Mostre o resultado na tela e
 coloque suas considerações num comentário no código.
 f. Atribua a ui o maior valor que pode ser armazenado num
 unsigned int (identifique qual o menor e o maior valor que pode
-ser representado);*/
+ser representado)*/
 #include <iostream>
 #include <limits>
 

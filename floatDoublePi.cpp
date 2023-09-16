@@ -22,9 +22,7 @@ e. Identifique se existe alguma diferença entre o valor pif e pid quando
 seus valores são impressos com cout utilizando 2, 4, 8 e 16 casas decimais
 
 f. No seu sistema existe diferença entre o tipo double e long double?
-Mostre seu achado com algum exemplo dentro do seu código.
-
-*/
+Mostre seu achado com algum exemplo dentro do seu código.*/
 
 #include <iostream>
 #include <string>
