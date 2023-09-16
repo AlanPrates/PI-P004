@@ -29,10 +29,10 @@ Conheça os membros da equipe que contribuíram para este projeto:
 ## Instruções
 Cada membro da equipe criou um branch específico para trabalhar em suas implementações individuais. Você pode encontrar os branches de cada membro seguindo os links abaixo:
 
-- [Branch do Alan Prates](AlanPrates)
+- [Branch do Alan Prates](https://github.com/AlanPrates/PI-P004/tree/AlanPrates)
 - [Branch do Daniel Monteiro](link_para_o_branch_do_Daniel)
 - [Branch do Danilo Silveira](link_para_o_branch_do_Danilo)
-- [Branch do Paulo Pereira](link_para_o_branch_do_Paulo)
+- [Branch do Paulo Pereira](https://github.com/AlanPrates/PI-P004/tree/pauloMarques)
 - [Branch do Lucas Santiago](link_para_o_branch_Lucas_Santiago)
 
 ## Como Contribuir
