@@ -19,7 +19,7 @@ c. Acrescente ao código do exercício anterior a possibilidade de ler um
 caractere qualquer e imprima no mesmo formato do inciso anterior.
 d. Pesquise como fazer para armazenar uma variável os caracteres
 especiais ‘ç’ e ‘ã’. Acrescente no código do exercício anterior um
-exemplo que demonstra como usar este recurso. */
+exemplo que demonstra como usar este recurso.*/
 #include <iostream>
 #include <string>
 
