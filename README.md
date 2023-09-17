@@ -24,8 +24,8 @@ Conheça os membros da equipe que contribuíram para este projeto:
 - Contato: [https://github.com/paulo2k21]
 
 ### Lucas Santiago
-- Função: [Inserir função ou responsabilidade específica]
-- Contato: [Inserir informações de contato, como e-mail ou perfil do GitHub]
+- Função: [criar uma branch no repositório e adicionar os arquivos dos exercícios]
+- Contato: [https://github.com/L-Santiag0]
 ## Instruções
 Cada membro da equipe criou um branch específico para trabalhar em suas implementações individuais. Você pode encontrar os branches de cada membro seguindo os links abaixo:
 
@@ -33,7 +33,7 @@ Cada membro da equipe criou um branch específico para trabalhar em suas impleme
 - [Branch do Daniel Monteiro](link_para_o_branch_do_Daniel)
 - [Branch do Danilo Silveira](link_para_o_branch_do_Danilo)
 - [Branch do Paulo Pereira](https://github.com/AlanPrates/PI-P004/tree/pauloMarques)
-- [Branch do Lucas Santiago](link_para_o_branch_Lucas_Santiago)
+- [Branch do Lucas Santiago](https://github.com/AlanPrates/PI-P004/tree/Lucas_Santiago)
 
 ## Como Contribuir
 Se você for um membro da equipe ou colaborador autorizado, siga estas etapas para contribuir:

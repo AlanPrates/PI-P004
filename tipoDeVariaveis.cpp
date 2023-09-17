@@ -1,70 +1,57 @@
-/*Os caracteres numéricos aparecem na tabela ASCII, e em outras, numa
-sequência que começa pelo caractere ‘0’ até o caractere ‘9’. As variáveis
-de tipo caractere podem ser tratadas também como valores numéricos. Com
-base nestas afirmações desenvolva um programa em C++ que:
+/*
+    Breve resumo da atividade!
 
-a. Imprima na tela, utilizando cout, cada um dos caracteres numéricos e
-seu correspondente código numérico. Como modificar o comportamento
-do cout para imprimir um objeto de tipo char como caractere e como
-número?
-Exemplo: ‘0’ - 48
-         ‘1’ - 49
-             …
-         ‘9’ - 57
-Atividades
-b. Modifique o exercício anterior para que a saída imprima também o código
-numérico em octal e em hexadecimal.
+    Desenvolver um programa em C++ que:
 
-c. Acrescente ao código do exercício anterior a possibilidade de ler um
-caractere qualquer e imprima no mesmo formato do inciso anterior.
-d. Pesquise como fazer para armazenar uma variável os caracteres
-especiais ‘ç’ e ‘ã’. Acrescente no código do exercício anterior um
-exemplo que demonstra como usar este recurso.*/
+    a. Imprima na tela, utilizando cout, cada um dos caracteres numéricos e
+    seu correspondente código numérico.
+
+    b. Modificar o programa para que a saída imprima também o código
+    numérico em octal e em hexadecimal.
+
+    c. Acrescente ao código a possibilidade de ler um caractere qualquer 
+    e imprima no mesmo formato do inciso anterior.
+
+    d. Pesquisar como armazenar em uma variável os caracteres especiais ‘ç’ e ‘ã’. Acrescente no código um exemplo que demonstra como usar este recurso. 
+
+*/
+
 #include <iostream>
 #include <string>
+#include <unistd.h> // Incluindo o cabeçalho para utilizar o sleep().
 
 using namespace std;
 
-int main(void)
-{
+int main(){
 
-    char caracter;
+    char caractere;
 
-    // Solucionando a questão "A e B" da atividade.
-    for (int n = 48; n <= 57; n++)
-    {
-        caracter = n;
+    cout << "-=-=-  TABELA ASCII  -=-=-\n";
 
-        cout << " O valor de " << caracter << " em decimal: " << dec << int(caracter) << endl;
-
-        cout << "O valor de  " << caracter << " em octal: " << oct << int(caracter) << endl;
-
-        cout << " O valor de " << caracter << " em hexa " << hex << int(caracter) << endl;
-
-        cout << endl;
+    // Resolução das letras 'a' e 'b'.
+    for (int i = '0' ; i <= '9' ; i++){
+        sleep(1);
+        cout << "\v------- " << char(i) << " -------\n";
+        cout << "Decimal: " << dec << i << endl;
+        cout << "Octal: " << oct << i << endl;
+        cout << "Hexadecimal: " << hex << i << endl;
     }
 
-    // Solucionando a questão "C" da atividade.
-    cout << "###################### Inserindo um valor #######################" << endl;
+    // Resolução da letra 'c'.
+    cout << "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
+    cout << "\vEntre com um caractere: ";
+    cin >> caractere;
 
-    cout << "Insira um caracter: " << endl;
-    cin >> caracter;
+    cout << "\v------- " << caractere << " -------\n";
+    cout << "Decimal: " << int(caractere) << endl;
+    cout << "Octal: " << oct << int(caractere) << endl;
+    cout << "Hexadecimal: " << hex << int(caractere) << endl;
 
-    cout << " O valor de " << caracter << " em decimal: " << dec << int(caracter) << endl;
+    // Resolução da letra 'd'. 
+    // O "wchar_t" cria uma variável capaz de armazenar um caractere especial e a letra "L" antes das aspas indica que estamos criando uma unicode. Para fazer a impressão utilizamos o "wcout", que é uma versão do cout adequadao para imprimir caracteres unicode/especiais.
+    cout << "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
+    wchar_t caractereEspecial = L'ã';
+    wcout << "Imprimindo o caractere especial: " << caractereEspecial << endl;
 
-    cout << "O valor de  " << caracter << " em octal: " << oct << int(caracter) << endl;
-
-    cout << " O valor de " << caracter << " em hexa: " << hex << int(caracter) << endl;
-
-    cout << endl;
-
-    // Solucionando a questão "D" da atividade.
-
-    // Utilizamos a variável do wchar_t para armazenar caracteres unicode
-    // Podendo adicionar "ç" ou "ã" como pede a questão
-    wchar_t caracterEspecial = L'ç';
-
-    cout << string(1, caracterEspecial);
-
-    return (0);
+    return 0;
 }
